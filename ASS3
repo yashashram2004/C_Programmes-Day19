@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+	int num, i;
+	long int fact = 1;
+	scanf("%d",&num);
+	
+	i = num;
+	while(i >= 1){
+		fact *= i;
+		i--;
+	}
+	printf("Factorial : %ld", fact);
+}
